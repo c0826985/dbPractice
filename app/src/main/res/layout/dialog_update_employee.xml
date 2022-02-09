@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_new_employee"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_employee_name"
+        android:minHeight="48dp"
+        android:paddingHorizontal="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/select_department" />
+
+    <Spinner
+        android:id="@+id/spinner_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/departments"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:digits="0123456789"
+        android:hint="@string/enter_the_salary"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_update_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_button_text" />
+
+
+</LinearLayout>
+

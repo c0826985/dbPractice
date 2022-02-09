@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">dbPractice</string>
+    <string name="add_a_new_employee">Add a new Employee</string>
+    <string name="enter_employee_name">Enter employee Name</string>
+    <string name="select_department">Select Department</string>
+    <string name="enter_the_salary">Enter the salary</string>
+    <string name="add">Add</string>
+    <string name="display_employees">Display Employees</string>
+    <string name="department_name">Technical</string>
+    <string name="row_name">JOHN</string>
+    <string name="salary_amt">5000</string>
+    <string name="date_sample">2022-10-09</string>
+    <string name="update_button_text">update</string>
+    <string name="delete">DELETE</string>
+
+    <!--dept array entries -->
+    <string-array name="departments">
+        <item>Technical</item>
+        <item>Test</item>
+        <item>Engineering</item>
+        <item>Support</item>
+        <item>Research and Development</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+    </string-array>
+</resources>

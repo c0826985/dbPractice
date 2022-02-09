@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/row_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_department"
+            android:textColor="@color/design_default_color_primary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/department_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_salary"
+            android:text="@string/salary_amt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_joining_date"
+            android:text="@string/date_sample"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_update"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/update_button_text"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_delete"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/design_default_color_error"
+                android:text="@string/delete"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
